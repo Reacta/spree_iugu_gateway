@@ -1,0 +1,157 @@
+{
+  "id":"ABC19A61A78A4665914426EA752B0001",
+  "due_date":"2017-03-22",
+  "currency":"BRL",
+  "discount_cents":null,
+  "email":"teste@teste.com",
+  "items_total_cents":1000,
+  "notification_url":null,
+  "return_url":null,
+  "status":"paid",
+  "tax_cents":null,
+  "updated_at":"2017-03-22T13:24:54-03:00",
+  "total_cents":1000,
+  "total_paid_cents":1000,
+  "paid_at":"2017-03-22T13:24:54-03:00",
+  "taxes_paid_cents":75,
+  "paid_cents":1000,
+  "cc_emails":null,
+  "financial_return_date":null,
+  "payable_with":"all",
+  "overpaid_cents":null,
+  "ignore_due_email":true,
+  "ignore_canceled_email":true,
+  "advance_fee_cents":null,
+  "commission_cents":0,
+  "secure_id":"abc001",
+  "secure_url":"https://faturas.iugu.com/1",
+  "customer_id":null,
+  "customer_ref":null,
+  "customer_name":null,
+  "user_id":null,
+  "total":"R$ 10,00",
+  "taxes_paid":"R$ 0,75",
+  "total_paid":"R$ 10,00",
+  "total_overpaid":"R$ 0,00",
+  "commission":"R$ 0,00",
+  "fines_on_occurrence_day":"R$ 0,00",
+  "total_on_occurrence_day":"R$ 10,00",
+  "fines_on_occurrence_day_cents":0,
+  "total_on_occurrence_day_cents":1000,
+  "advance_fee":null,
+  "paid":"R$ 10,00",
+  "interest":null,
+  "discount":null,
+  "created_at":"22/03, 13:24 h",
+  "refundable":true,
+  "installments":"1",
+  "transaction_number":1111,
+  "payment_method":"iugu_credit_card_test",
+  "created_at_iso":"2017-03-22T13:24:54-03:00",
+  "updated_at_iso":"2017-03-22T13:24:54-03:00",
+  "financial_return_dates":null,
+  "bank_slip":null,
+  "items":[
+    {
+      "id":"3FB8962A70504A18BBC20A724F72345B",
+      "description":"teste",
+      "price_cents":1000,
+      "quantity":1,
+      "created_at":"2017-03-22T13:24:54-03:00",
+      "updated_at":"2017-03-22T13:24:54-03:00",
+      "price":"R$ 10,00"
+    }
+  ],
+  "variables":[
+    {
+      "id":"C6859F11BAE14BB4B7C11D327F84586C",
+      "variable":"payer.address.city",
+      "value":"cidade"
+    },
+    {
+      "id":"C4F42C3B3D9446398A16F88B7A3668C7",
+      "variable":"payer.address.country",
+      "value":"Brasil"
+    },
+    {
+      "id":"ADA8D4F7BFC84BACB8632241D3F73BC6",
+      "variable":"payer.address.state",
+      "value":"Sao Paulo"
+    },
+    {
+      "id":"3064A4E6A34D4767B9D0261AFBF54AA7",
+      "variable":"payer.address.street",
+      "value":"end"
+    },
+    {
+      "id":"11E7E4725EFD4B7B9201998A728FD6B6",
+      "variable":"payer.address.zip_code",
+      "value":"17209823"
+    },
+    {
+      "id":"E7102C72264F4FBCA43A4D33CFFA4361",
+      "variable":"payer.email",
+      "value":"teste@teste.com"
+    },
+    {
+      "id":"FEAA9BB088C443B2BF87D8AA814AA65E",
+      "variable":"payer.name",
+      "value":"teste cartao"
+    },
+    {
+      "id":"70755B790304430FA7D29B5F96D1A25E",
+      "variable":"payer.phone",
+      "value":"12345678"
+    },
+    {
+      "id":"B33E622545604EAFAD1DD6F2C5EEACA2",
+      "variable":"payer.phone_prefix",
+      "value":"14"
+    },
+    {
+      "id":"0CF3518BBFB54D8EA6801D55540D2993",
+      "variable":"payment_data.arp",
+      "value":"00000"
+    },
+    {
+      "id":"090207015EC348A7997D0BC0BF0DD7D4",
+      "variable":"payment_data.installments",
+      "value":"1"
+    },
+    {
+      "id":"D18294952A0244E1862EA0F8C007B1A2",
+      "variable":"payment_data.nsu",
+      "value":"00000"
+    },
+    {
+      "id":"A8E9D3E0F9CD4D3390D0356DB7EE962C",
+      "variable":"payment_data.transaction_id",
+      "value":"00000000000000000001"
+    },
+    {
+      "id":"37FFD80F33F04E25A08E5BDFD5CC6338",
+      "variable":"payment_data.transaction_number",
+      "value":"1111"
+    },
+    {
+      "id":"783770CD3F90466FBB0165D094ADD57C",
+      "variable":"payment_method",
+      "value":"iugu_credit_card_test"
+    }
+  ],
+  "custom_variables":[],
+  "logs":[
+    {
+      "id":"7E2EEE45F65547788D5779E9190FE72D",
+      "description":"Email de Recibo enviado!",
+      "notes":"Recibo enviado com sucesso para: teste@teste.com",
+      "created_at":"22/03, 13:24 h"
+    },
+    {
+      "id":"EDC1722773674B238566D5CCC37E05B6",
+      "description":"Fatura paga com sucesso!",
+      "notes":"Fatura paga com Cart\u00e3o de Cr\u00e9dito por:  LR: 00",
+      "created_at":"22/03, 13:24 h"
+    }
+  ]
+}

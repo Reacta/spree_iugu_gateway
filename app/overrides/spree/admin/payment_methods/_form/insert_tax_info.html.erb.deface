@@ -1,0 +1,26 @@
+<!-- insert_after '[data-hook="admin_payment_method_form_fields"]' -->
+<% if @object.persisted? and @object.is_a?(Spree::Gateway::IuguGateway) %>
+  <div class="row" data-hook="iugu_gateway_tax">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <%= Spree.t(:tax) %>
+      </div>
+      <div class="panel-body">
+        <div class="row">
+          <% @object.preferred_maximum_installments.times do |i| %>
+            <% installment = i + 1 %>
+            <div class="col-md-6">
+              <%= label_tag "installment_#{installment}", Spree.t(:installment) %>
+              <%= text_field_tag "installment[]", installment, class: 'form-control', disabled: true %>
+            </div>
+            <div class="col-md-6">
+              <% tax_value = @object.preferred_tax_value_per_months[installment.to_s] || 0.0 %>
+              <%= label_tag "tax_value_#{installment}", Spree.t(:tax_value) %>
+              <%= text_field_tag "tax_value[]", tax_value, class: 'form-control' %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>

@@ -1,0 +1,33 @@
+pt-BR:
+  spree:
+    api_key: API Token
+    account_id: ID da Conta
+    maximum_installments: "Número máximo de parcelas disponível"
+    minimum_value: "Valor mínimo por parcela"
+    installments_without_tax: "Número de parcelas sem juros"
+    tax_value: "Valor do juros (% a.m.)"
+    min_value_without_tax: "Valor mínimo para parcelas sem juros"
+    installment: Parcela
+    installments: Parcelas
+    iugu_without_tax: sem juros
+    iugu_with_tax: com juros
+    iugu_installment_item:
+      one: "1 parcela de %{value}"
+      other: "%{count} parcelas de %{value}"
+    iugu_installment_item_with_tax:
+      one: "1 parcela de %{value} (%{total})"
+      other: "%{count} parcelas de %{value} (%{total})"
+    iugu_installment_item_without_tax:
+      one: "1 parcela de %{value} sem juros"
+      other: "%{count} parcelas de %{value} sem juros"
+    shipment_total: Valor do frete
+    iugu_gateway_success: "Transação autorizado com sucesso"
+    iugu_gateway_void: "Transação estornada com sucesso"
+    iugu_gateway_cancel: "Transação cancelada com sucesso"
+    iugu_gateway_capture: "Transação capturada com sucesso"
+    iugu_gateway_installment: "Número de parcelas é requerido"
+    iugu_cc_adjustment_tax: Juros do Cartão de Crédito
+    iugu_gateway_failure: "Infelizmente o seu pagamento não foi aprovado pela operadora de cartão. Tente com outro cartão ou com boleto bancário."
+    iugu_gateway_error: "Ocorreu um erro de comunicação, por favor tente novamente."
+    iugu_error:
+      credit_card_invalid: "A operadora de cartão de crédito retornou que o cartão digitado é invalido. Por favor, verifique os dados digitados ou tente com outro cartão ou finalize a compra com boleto bancário."

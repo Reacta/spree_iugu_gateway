@@ -1,0 +1,27 @@
+en:
+  spree:
+    api_key: API Key
+    account_id: Account ID
+    maximum_installments: Maximum installments Available
+    minimum_value: Minimum Value per installment
+    installments_without_tax: installments without Tax
+    tax_value: Tax Value
+    min_value_without_tax: Minium value without tax
+    installment: installment
+    installments: installments
+    iugu_without_tax: without tax
+    iugu_with_tax: with tax
+    iugu_installment_item: "%{count}x of %{value}"
+    iugu_installment_item_with_tax: "%{count}x of %{value} (%{total})"
+    iugu_installment_item_without_tax: "%{count}x of %{value} without tax"
+    shipment_total: Shipment Total
+    iugu_gateway_success: Transaction purchased successfully
+    iugu_gateway_void: Transaction voided successfully
+    iugu_gateway_cancel: Transaction canceled successfully
+    iugu_gateway_capture: Transaction captured successfully
+    iugu_gateway_installment: installment is required
+    iugu_cc_adjustment_tax: Credit Card Tax
+    iugu_gateway_failure: Transaction failure
+    iugu_gateway_error: Transaction failure
+    iugu_error:
+      credit_card_invalid: The credit card number is invalid

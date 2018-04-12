@@ -1,0 +1,72 @@
+{
+    "id": "ABC19A61A78A4665914426EA752B0001",
+    "due_date": "2015-04-07",
+    "currency": "BRL",
+    "discount_cents": null,
+    "email": "email@email.com",
+    "items_total_cents": 15000,
+    "notification_url": null,
+    "return_url": null,
+    "status": "in_analysis",
+    "tax_cents": null,
+    "updated_at": "2015-04-08T11:06:43-03:00",
+    "total_cents": 15000,
+    "paid_at": "2015-04-08T11:06:43-03:00",
+    "taxes_paid_cents": 705,
+    "paid_cents": 15000,
+    "cc_emails": null,
+    "financial_return_date": "2015-05-08",
+    "payable_with": "all",
+    "commission_cents": 0,
+    "secure_id": "5a4cbc68-f7a6-47ec-add5-9d4e1b4b0ddf-1342",
+    "secure_url": "http://iugu.com/invoices/5a4cbc68-f7a6-47ec-add5-9d4e1b4b0ddf-1342",
+    "commission": "R$ 0,00",
+    "customer_id": "8747577C7C044D38B837844C751D2DCA",
+    "customer_ref": "Nome do Cliente",
+    "customer_name": "Nome do Cliente",
+    "financial_return_dates": [
+        {
+            "installment": 1,
+            "return_date": "2015-05-08",
+            "status": "pending"
+        }
+    ],
+    "user_id": "B733FEEDF4774F3A8EA33BF3682D532F",
+    "total": "R$ 150,00",
+    "taxes_paid": "R$ 7,05",
+    "fines_on_occurrence_day": "R$ 0,00",
+    "total_on_occurrence_day": "R$ 150,00",
+    "fines_on_occurrence_day_cents": 0,
+    "total_on_occurrence_day_cents": 15000,
+    "advance_fee": null,
+    "paid": "R$ 150,00",
+    "interest": null,
+    "discount": null,
+    "created_at": "07/04, 15:09 h",
+    "refundable": true,
+    "installments": "1",
+    "transaction_number": 50019,
+    "created_at_iso": "2015-04-07T15:09:56-03:00",
+    "updated_at_iso": "2015-04-08T11:06:43-03:00",
+    "bank_slip": null,
+    "items": [
+        {
+            "id": "E0174FC31EB94E84A106F7A6F9AE2B6E",
+            "description": "Item 1",
+            "price_cents": 15000,
+            "quantity": 1,
+            "created_at": "2015-04-07T15:09:56-03:00",
+            "updated_at": "2015-04-07T15:09:56-03:00",
+            "price": "R$ 150,00"
+        }
+    ],
+    "variables": [
+        {
+            "id": "A8C555AF7A6C43EFAF16C8AF26E20FDE",
+            "variable": "payment_data.transaction_number",
+            "value": "50019"
+        }
+    ],
+    "custom_variables": [],
+    "logs": []
+}

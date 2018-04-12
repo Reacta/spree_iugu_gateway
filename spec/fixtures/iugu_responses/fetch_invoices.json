@@ -1,0 +1,95 @@
+{
+  "facets": {
+    "status": {
+      "_type": "terms",
+      "missing": 0,
+      "total": 2,
+      "other": 0,
+      "terms": [
+        {
+          "term": "paid",
+          "count": 1
+        },
+        {
+          "term": "pending",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "totalItems": 2,
+  "items": [
+    {
+      "id": "E607FCCD119E45C59336DB78B54CF771",
+      "due_date": "2013-11-30",
+      "currency": "BRL",
+      "customer_id": null,
+      "discount_cents": null,
+      "email": "teste@teste.com",
+      "expiration_url": null,
+      "notification_url": null,
+      "return_url": null,
+      "status": "pending",
+      "tax_cents": null,
+      "updated_at": "2013-11-18T14:58:23-02:00",
+      "total_cents": 1000,
+      "commission_cents": null,
+      "secure_id": "e607fccd-119e-45c5-9336-db78b54cf771-314d",
+      "secure_url":
+        "https://iugu.com/invoices/e607fccd-119e-45c5-9336-db78b54cf771-314d",
+      "user_id": null,
+      "commission": "R$ 0,00",
+      "total": "R$ 10,00",
+      "created_at": "18 Nov 14:58",
+      "items": [
+        {
+          "id": "0E9E83C2E8B14AF0ADB2F5F6E97265AA",
+          "description": "Item Um",
+          "price_cents": 1000,
+          "quantity": 1,
+          "created_at": "2013-11-18T14:58:23-02:00",
+          "updated_at": "2013-11-18T14:58:23-02:00",
+          "price": "R$ 10,00"
+        }
+      ],
+      "variables": [],
+      "logs": []
+    },
+    {
+      "id": "F47FE578806747FE8FF71C1521934E81",
+      "due_date": "2013-10-24",
+      "currency": "BRL",
+      "customer_id": "32ce45d8-b42b-4aee-a3d1-a1d9227e1790",
+      "discount_cents": null,
+      "email": "teste@gmail.com",
+      "expiration_url": null,
+      "notification_url": null,
+      "return_url": null,
+      "status": "paid",
+      "tax_cents": null,
+      "updated_at": "2013-10-24T14:21:26-02:00",
+      "total_cents": 200,
+      "commission_cents": 0,
+      "secure_id": "f47fe578-8067-47fe-8ff7-1c1521934e81-3280",
+      "secure_url":
+        "https://iugu.com/invoices/f47fe578-8067-47fe-8ff7-1c1521934e81-3280",
+      "commission": "R$ 0,00",
+      "user_id": null,
+      "total": "R$ 2,00",
+      "created_at": "24 Oct 14:21",
+      "items": [
+        {
+          "id": "FBDBAF5E259C492C98E6C2CB493777F7",
+          "description": "Subscription Activation: plan1",
+          "price_cents": 200,
+          "quantity": 1,
+          "created_at": "2013-10-24T14:21:26-02:00",
+          "updated_at": "2013-10-24T14:21:26-02:00",
+          "price": "R$ 2,00"
+        }
+      ],
+      "variables": [],
+      "logs": []
+    }
+  ]
+}
