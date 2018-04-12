@@ -1,7 +1,7 @@
-Spree Iugu Credit Card
+Spree Iugu Gateway
 ===================
 
-This is a extension that enables Iugu Credit Card for Spree Commerce.
+This is a extension that enables Iugu Gateway for Spree Commerce.
 
 [Iugu Documentation](https://iugu.com/referencias/api)
 
@@ -9,11 +9,8 @@ This is a extension that enables Iugu Credit Card for Spree Commerce.
 
 1. Add this extension to your Gemfile with this line:
   ```ruby
-  gem 'spree_iugu_gateway', github: '[your-github-handle]/spree_iugu_gateway', branch: 'X-X-stable'
+  gem 'spree_iugu_gateway', github: 'Reacta/spree_iugu_gateway'
   ```
-
-  The `branch` option is important: it must match the version of Spree you're using.
-  For example, use `3-1-stable` if you're using Spree `3-1-stable` or any `3.1.x` version.
 
 2. Install the gem using Bundler:
   ```ruby
